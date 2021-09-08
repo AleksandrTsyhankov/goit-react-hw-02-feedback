@@ -1,0 +1,21 @@
+.title {
+    font-family: montserrat;
+    color: rgb(11, 90, 11);
+    /* margin-left: 10px; */
+}
+
+.statList {
+    list-style: none;
+    padding: 0;
+    /* margin-left: 10px; */
+}
+
+.statListItem {
+    font-family: montserrat;
+    font-weight: 600;
+    color: rgb(11, 90, 11);
+}
+
+.statListItem:not(:last-child) {
+    margin-bottom: 5px;
+}

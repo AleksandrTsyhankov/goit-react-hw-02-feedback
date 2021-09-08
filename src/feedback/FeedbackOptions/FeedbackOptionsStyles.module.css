@@ -1,0 +1,27 @@
+.title {
+    font-family: montserrat;
+    color: rgb(11, 90, 11);
+    /* margin-left: 10px; */
+}
+
+.btnList {
+    list-style: none;
+
+    display: flex;
+
+    padding: 0;
+    /* margin-left: 10px; */
+}
+
+.btnListItem:not(:last-child) {
+    margin-right: 10px;
+}
+
+.btn {
+    font-family: montserrat;
+    font-weight: bold;
+    color: rgb(11, 90, 11);
+    border-radius: 5px;
+    background-color: rgb(189, 245, 175);
+    border-color: rgb(189, 245, 175);
+}
